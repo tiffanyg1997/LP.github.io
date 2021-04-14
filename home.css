@@ -1,0 +1,78 @@
+
+*{ box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    background-color ; 
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 ;
+    font-size: 20px; 
+    color: #edf0f1;
+    text-decoration: none; 
+    text-align: left;
+}
+
+.first {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+    padding: 30px 10%; 
+    box-sizing: border-box; 
+    margin: 2; 
+    padding: 2; 
+    background-color: #0c3b6c; 
+    white-space: nowrap;
+}
+.logo {
+    cursor: pointer;  
+    width: 400px; 
+    height: 120px; 
+    text-align: left;
+}
+.nav__links {
+    display: inline-block; 
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block; 
+    padding: 0px 20px;
+
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    color: white; 
+}
+.nav__links li a:hover{
+    color: #c3333c;
+    border-bottom: 3px  #c3333c; 
+    text-decoration: none;
+}
+
+.nav__links li a:active{
+    border-bottom: 3px #c3333c;
+}
+
+.carousel-item {
+    background-image: linear-gradient(to right, red , yellow);
+    background: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5)); 
+    height:32rem; 
+    color: ivory; 
+    position: relative; 
+    background-position: center; 
+    background-size:cover; 
+
+}
+.container {
+  position: absolute; 
+  bottom:0; 
+  left:0; 
+  right:0; 
+  padding-bottom:50px;  
+}
+
+.overlay-image{
+    opacity:0.5;
+    background: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5));
+}
